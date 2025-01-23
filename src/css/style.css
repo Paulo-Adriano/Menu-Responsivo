@@ -111,7 +111,11 @@ a:hover {
     .logo {
         margin:auto;
         padding-top: 30px;
-        padding-right: 100px;
+        padding-right: 150px;
+    }
+
+    .logo p {
+        font-size: 40px;
     }
 
     .menu {
@@ -126,5 +130,12 @@ a:hover {
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+
+    .section li a {
+        font-size: 20px;
+    }
+    .section li a.login {
+        font-size: 16px;
     }
 }
