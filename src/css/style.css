@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    height: 426px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    margin: 40px;
+    width: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.logo img {
+    width: 45px;
+    height: 42px;
+
+    display: inline-block;
+}
+
+.logo p {
+
+    width: 80px;
+    height: 24px;
+
+    padding-top: 10px;
+
+    font-size: 20px;
+    font-weight: 800;
+
+    line-height: 23.5px;
+
+    font-family: "Public Sans", serif;
+
+}
+
+.menu {
+    width: 600px;
+    height: 200px;
+
+
+
+}
+
+.section {
+    width: 400px;
+    height: 30px;
+
+    margin-right: 100px;
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li {
+    list-style: none;
+    width: 100px;
+    height: 40px;
+    
+    margin: 5px;
+}
+
+li a {
+
+    color: black;
+
+    padding: 10px;
+    border-radius: 15px;
+
+    text-decoration: none;
+
+    font-family: "Public Sans", serif;
+    font-weight: 400;
+
+}
+
+.login {
+    white-space: nowrap;
+    background-color: #5BC241;
+    color: white;
+}
+
+a:hover {
+    background-color: #5BC241;
+    color: white;
+}
+
+@media (max-width: 775px) {
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .logo {
+        margin:auto;
+        padding-top: 30px;
+        padding-right: 100px;
+    }
+
+    .menu {
+        margin: auto;
+        width: 100px;
+        height: 600px;
+
+        
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
